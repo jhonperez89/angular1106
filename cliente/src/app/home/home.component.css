@@ -1,0 +1,19 @@
+.banner{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/hotelnacional-e04ad.appspot.com/o/InterContinental_Hotels_MEDELLIN-Medellin-Aussenansicht-8-111565.jpg?alt=media&token=28a8581f-4b31-4a9e-9dd0-5ed2bc8dc6c0');
+    padding: 10% 20% 30% 10%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index:1;
+}
+.banner::after{
+    content: '';
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.3;
+    z-index: -1;
+}
